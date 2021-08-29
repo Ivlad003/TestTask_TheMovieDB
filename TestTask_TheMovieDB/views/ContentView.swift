@@ -12,22 +12,22 @@ struct ContentView: View {
                 StroriesView()
                     .navigationBarHidden(true)
             }.tabItem {
-                Image(systemName: "house")
+                Image(systemName: "film.fill")
                 Text("Strories")
             }.tag(0)
              
             NavigationView{
-                Text("Salut, tout le monde!1")
+                Text("No result")
             }.tabItem {
-                Image(systemName: "timelapse")
-                Text("Space")
+                Image(systemName: "film.fill")
+                Text("Video")
             }.tag(1)
             
             NavigationView{
-                Text("Salut, tout le monde!2")
+                Text("No result")
             }.tabItem {
-                Image(systemName: "timelapse")
-                Text("Space")
+                Image(systemName: "star.circle.fill")
+                Text("Favourites")
             }.tag(3)
         }
     }
